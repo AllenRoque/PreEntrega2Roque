@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  background-color: gainsboro;
+}
+.main {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+.contenido {
+  width: 75%;
+  background-color: aquamarine;
+}
+.anuncios {
+  width: 25%;
+  background-color: red;
+}
+
+p {
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  margin-top: 250px;
+}
